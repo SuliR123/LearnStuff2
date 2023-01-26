@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +23,13 @@ function App() {
   );
 }
 
-export default App;
+export function FlexBox(){
+  return(
+  <div className="flex max-w-screen max-h-screen">
+    <img className="w-80 h-50" src="frog.jpeg"></img>
+  </div> 
+  )
+}
+
+export default App; 
+

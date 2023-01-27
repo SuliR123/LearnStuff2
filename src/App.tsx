@@ -23,7 +23,7 @@ function App() {
   );
 }
 
-export function FlexBox(){
+export function FlexBox() {
   return(
   <div className="flex max-w-screen max-h-screen">
     <img className="w-80 h-50" src="frog.jpeg"></img>

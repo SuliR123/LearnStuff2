@@ -3,15 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {FlexBox} from './App';
 import reportWebVitals from './reportWebVitals';
+import {Landing} from './component/Landing';
+import HomePage from './pages/Homepage';
+//you need to install this import btw
+import {BrowserRouter} from "react-router-dom";
+
+//also small quirk but html is close like: </Browser>, but components are closed like <HomePage />
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FlexBox />
+    <BrowserRouter>
+      <HomePage />
+    </BrowserRouter>
   </React.StrictMode>
 );
+
+//look at the onboarding-router routes routepath, likely going to have to create a routing tree similar to that.
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

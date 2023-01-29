@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {FlexBox} from './App';
 import reportWebVitals from './reportWebVitals';
-import {Landing} from './component/Landing';
 import HomePage from './pages/Homepage';
 //you need to install this import btw
 import {BrowserRouter} from "react-router-dom";

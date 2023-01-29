@@ -4,9 +4,8 @@ export const Landing: React.FC = () => {
     //create a const, and set it to 0
     const [count, setCount] = useState<number>(0);
 
-    //the is I guess for on event do setCount, idk why this does this tbh.
-    //make this so that the froggie image when gets clicked does something
-    //<button type="button" onClick={e => setCount(count + 1)}> Press Me To See Magic Happen</button>
+    //the annoying thing is, is that the frog image renders inline, like it goes right into the text, is there
+    //a better way of styling this
     return (
         <h2>
             <h3>Click Me to See Magic Happen</h3>
